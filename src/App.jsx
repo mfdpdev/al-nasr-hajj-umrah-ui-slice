@@ -1,10 +1,14 @@
+import Navbar from "./components/header/Navbar"
+import Home from "./sections/home/Home"
+
 function App() {
 
   return (
     <>
-      <p className="">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="w-full my-6">
+        <Navbar />
+        <Home />
+      </div>
     </>
   )
 }
