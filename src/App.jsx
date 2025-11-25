@@ -1,6 +1,7 @@
 import Navbar from "./components/header/Navbar"
 import AboutUs from "./sections/about-us/AboutUs"
 import Home from "./sections/home/Home"
+import Package from "./sections/package/Package"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Home />
         <AboutUs />
+        <Package />
       </div>
     </>
   )
