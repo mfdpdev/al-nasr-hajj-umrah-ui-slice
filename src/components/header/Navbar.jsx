@@ -3,7 +3,7 @@ import logo from "./../../assets/Logo.png"
 export default function Navbar(){
   return (
     <>
-      <nav className="text-slate-700 fixed left-0 top-0 w-full py-2 flex justify-center items-center">
+      <nav className="z-99 bg-white text-slate-700 fixed left-0 top-0 w-full py-2 flex justify-center items-center">
         <div className="w-7xl px-6 flex justify-between items-center">
           <div>
             <img src={logo} alt="al-nasr" className="w-3/4" />
