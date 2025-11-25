@@ -59,7 +59,7 @@ export default function Card(){
           <button
             className="
               px-6 sm:px-5 py-3 sm:py-2.5
-              text-sm sm:text-xs md:text-sm font-semibold rounded-lg
+              text-sm sm:text-xs md:text-sm rounded-lg
               bg-white border-2 border-orange-300 text-orange-300
               hover:bg-orange-300 hover:text-white
               transition-all duration-300 transform
