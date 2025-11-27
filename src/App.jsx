@@ -1,3 +1,4 @@
+import Footer from "./components/footer/Footer"
 import Navbar from "./components/header/Navbar"
 import AboutUs from "./sections/about-us/AboutUs"
 import Facilities from "./sections/facilities/Facilities"
@@ -16,6 +17,7 @@ function App() {
         <Package />
         <Facilities />
         <Gallery />
+        <Footer />
       </div>
     </>
   )
