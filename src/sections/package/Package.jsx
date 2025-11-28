@@ -21,7 +21,7 @@ export default function Package(){
             grid-cols-1 
             sm:grid-cols-2 
             lg:grid-cols-3 
-            gap-8 
+            gap-20 
             mt-12 
             justify-items-center
           ">

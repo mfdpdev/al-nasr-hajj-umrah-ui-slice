@@ -27,7 +27,7 @@ export default function Home(){
         </div>
 
         <div className="flex-1 relative order-1 lg:order-2 w-full flex justify-center items-center">
-          <div className="absolute h-1/3 sm:h-3/5 lg:h-2/3 w-full max-w-lg mx-auto bg-teal-500 rounded-2xl lg:rounded-3xl"></div>
+          <div className="absolute h-2/3 sm:h-3/5 lg:h-2/3 w-full max-w-lg mx-auto bg-teal-500 rounded-2xl lg:rounded-3xl"></div>
           
           <div className="relative z-10 w-full flex justify-center">
             <img 
