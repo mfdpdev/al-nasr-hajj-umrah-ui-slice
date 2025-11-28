@@ -6,6 +6,7 @@ import Facilities from "./sections/facilities/Facilities"
 import Gallery from "./sections/gallery/Gallery"
 import Home from "./sections/home/Home"
 import Package from "./sections/package/Package"
+import Testimonial from "./sections/testimonial/Testimonial"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Package />
         <Airplane />
         <Facilities />
+        <Testimonial />
         <Gallery />
         <Footer />
       </div>
