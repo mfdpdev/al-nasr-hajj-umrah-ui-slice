@@ -2,7 +2,7 @@ import { MdOutlineSecurity } from "react-icons/md";
 export default function FacilityCard(){
   return (
     <>
-      <div className="flex items-center md:items-start gap-4 sm:gap-5 bg-white shadow-md hover:shadow-lg 
+      <div className="flex items-center md:items-start gap-4 sm:gap-5 bg-white shadow hover:shadow 
                 p-4 sm:p-5 rounded-xl transition-shadow w-full">
   
   {/* Icon */}
