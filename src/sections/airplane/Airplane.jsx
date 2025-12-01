@@ -21,7 +21,7 @@ export default function Airplane(){
         </div>
 
         <div className="flex-2 w-full md:w-auto">
-          <Marquee className="flex gap-6">
+          <Marquee className="">
             <img src={airplane1} className="" />
             <img src={airplane1} className="" />
           </Marquee>

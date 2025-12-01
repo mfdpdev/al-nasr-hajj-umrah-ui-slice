@@ -24,7 +24,7 @@ export default function TestimonialCard(){
     <p className="inline-flex items-center px-4 py-2 rounded-lg bg-teal-100 text-teal-600 text-sm md:text-base font-medium w-fit">
       Al Nasr Umrah
     </p>
-    <div>
+    <div className="text-start">
       <h2 className="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900">
         Humaira Khaira
       </h2>
