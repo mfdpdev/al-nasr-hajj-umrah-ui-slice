@@ -38,21 +38,22 @@ export default function Navbar(){
           </div>
 
           {/* Menu Desktop */}
-          <ul className="hidden sm:flex space-x-8 text-lg font-medium text-slate-700">
-            <li className="hover:text-orange-500 transition">Home</li>
-            <li className="hover:text-orange-500 transition">About Us</li>
-            <li className="hover:text-orange-500 transition">Package</li>
-            <li className="hover:text-orange-500 transition">Facilities</li>
-            <li className="hover:text-orange-500 transition">Gallery</li>
-          </ul>
+          {/* Menu Desktop – lebih responsif */}
+  <ul className="hidden md:flex items-center space-x-6 lg:space-x-10 xl:space-x-12 text-base lg:text-lg font-medium text-slate-700">
+    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Home</li>
+    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">About Us</li>
+    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Package</li>
+    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Facilities</li>
+    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Gallery</li>
+  </ul>
 
           {/* Kontakt Desktop */}
-          <div className="hidden sm:block">
+          <div className="hidden md:block">
             <Button>Contact Us</Button>
           </div>
 
           {/* Hamburger Mobile */}
-          <div className="sm:hidden">
+          <div className="md:hidden">
             <button
               onClick={() => setNav(!nav)}
               className="relative h-8 w-8 focus:outline-none"
@@ -78,7 +79,7 @@ export default function Navbar(){
 
         {/* Mobile Menu - kalau mau dropdown */}
         <div
-          className={`sm:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
             nav ? 'max-h-96' : 'max-h-0'
           }`}
         >
