@@ -39,13 +39,13 @@ export default function Navbar(){
 
           {/* Menu Desktop */}
           {/* Menu Desktop – lebih responsif */}
-  <ul className="hidden md:flex items-center space-x-6 lg:space-x-10 xl:space-x-12 text-base lg:text-lg font-medium text-slate-700">
-    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Home</li>
-    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">About Us</li>
-    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Package</li>
-    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Facilities</li>
-    <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Gallery</li>
-  </ul>
+          <ul className="hidden md:flex items-center space-x-6 lg:space-x-10 xl:space-x-12 text-base lg:text-lg font-medium text-slate-700">
+            <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Home</li>
+            <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">About Us</li>
+            <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Package</li>
+            <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Facilities</li>
+            <li className="hover:text-orange-500 transition-colors duration-200 whitespace-nowrap">Gallery</li>
+          </ul>
 
           {/* Kontakt Desktop */}
           <div className="hidden md:block">
