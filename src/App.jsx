@@ -12,15 +12,19 @@ function App() {
 
   return (
     <>
-      <div className="mx-auto max-w-7xl flex flex-col space-y-18">
+      <div className="mx-auto w-full space-y-18">
         <Navbar />
-        <Home />
-        <AboutUs />
-        <Package />
-        <Airplane />
+        <div className="mx-auto max-w-7xl">
+          <Home />
+          <AboutUs />
+          <Package />
+          <Airplane />
+        </div>
         <Facilities />
-        <Testimonial />
-        <Gallery />
+        <div className="mx-auto max-w-7xl">
+          <Testimonial />
+          <Gallery />
+        </div>
         <Footer />
       </div>
     </>

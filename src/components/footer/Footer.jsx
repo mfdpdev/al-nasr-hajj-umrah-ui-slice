@@ -56,7 +56,7 @@ export default function Footer(){
 
         {/* Copyright + Social — tetap di bawah */}
         <hr className="border-white/30 my-8 max-w-7xl mx-auto" />
-        <div className="flex flex-col md:flex-row justify-between items-center px-6 lg:px-24 max-w-7xl mx-auto text-sm">
+        <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto text-sm">
           <p>Copyright © 2006 - {new Date().getFullYear()} Al Nasr Travel | All Rights Reserved</p>
           
           <div className="flex space-x-3 mt-4 md:mt-0">
