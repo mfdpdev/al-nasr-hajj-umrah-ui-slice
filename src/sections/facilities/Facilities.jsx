@@ -1,5 +1,14 @@
 import FacilityCard from "../../components/card/FacilityCard";
 
+import { MdOutlineSecurity } from "react-icons/md";
+import { FaLayerGroup } from "react-icons/fa";
+import { IoCarOutline } from "react-icons/io5";
+import { GiHeartBeats } from "react-icons/gi";
+import { FaBed } from "react-icons/fa";
+import { IoFastFood } from "react-icons/io5";
+import { MdCardMembership } from "react-icons/md";
+import { TbVaccine } from "react-icons/tb";
+
 export default function Facilities(){
   return (
     <>
@@ -24,15 +33,46 @@ export default function Facilities(){
       gap-6 
       mt-10
     ">
-      <FacilityCard />
-      <FacilityCard />
-      <FacilityCard />
-      <FacilityCard />
-      <FacilityCard />
-      <FacilityCard />
-      <FacilityCard />
-      <FacilityCard />
-      {/* Tambah lagi juga aman, otomatis nambah baris */}
+      <FacilityCard
+        IconProps={MdOutlineSecurity} 
+        title="Safety & Security" 
+        description="We take care of your security 24 hours a day"
+      />
+      <FacilityCard
+        IconProps={FaLayerGroup} 
+        title="Conseling" 
+        description="Provide counseling to stay fit spiritually and religius"
+      />
+      <FacilityCard
+        IconProps={IoCarOutline} 
+        title="Vehicle In Suadi" 
+        description="Bus and Car Vehicles While in Saudi"
+      />
+      <FacilityCard
+        IconProps={GiHeartBeats} 
+        title="Health In Saudi" 
+        description="Free Health Facilities for every customer"
+      />
+      <FacilityCard
+        IconProps={FaBed} 
+        title="Hostel Rate 5" 
+        description="5 star hotel accommodation every customer"
+      />
+      <FacilityCard
+        IconProps={IoFastFood} 
+        title="Food & Drink" 
+        description="Provide food and drinks while in Saudi"
+      />
+      <FacilityCard
+        IconProps={MdCardMembership} 
+        title="Membership" 
+        description="Obtain a membership card for each customer"
+      />
+      <FacilityCard
+        IconProps={TbVaccine} 
+        title="Vaccine" 
+        description="Free meningitis vaccine for all customers"
+      />
     </div>
 
   </div>
