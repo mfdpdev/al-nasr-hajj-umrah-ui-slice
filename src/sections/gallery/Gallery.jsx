@@ -1,5 +1,9 @@
 import image1 from "./../../assets/galleries/image1.png"
 import image2 from "./../../assets/galleries/image2.png"
+import image3 from "./../../assets/galleries/image3.png"
+import image4 from "./../../assets/galleries/image4.png"
+import image5 from "./../../assets/galleries/image5.png"
+
 export default function Gallery(){
             // h-[500px] md:h-[600px]   /* biar tinggi tetap konsisten */
   return (
@@ -34,7 +38,7 @@ export default function Gallery(){
 
             {/* GRID KANAN — 4 FOTO SAMA BESAR dengan ratio persegi */}
             <div className="grid grid-cols-2 grid-rows-2 gap-4">
-              {[image2, image2, image2, image2].map((img, i) => (
+              {[image2, image3, image4, image5].map((img, i) => (
                 <div
                   key={i}
                   className="aspect-square rounded-lg overflow-hidden shadow-xl"
@@ -42,7 +46,7 @@ export default function Gallery(){
                   <img
                     src={img}
                     alt={`Gallery ${i + 1}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-fit"
                   />
                 </div>
               ))}
