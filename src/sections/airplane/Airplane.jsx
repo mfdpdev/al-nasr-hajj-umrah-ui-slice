@@ -1,6 +1,11 @@
 import { FaStar } from "react-icons/fa";
 import Marquee from "react-fast-marquee";
 import airplane1 from "./../../assets/airplanes/airplane1.png"
+import airplane2 from "./../../assets/airplanes/airplane2.png"
+import airplane3 from "./../../assets/airplanes/airplane3.png"
+import airplane4 from "./../../assets/airplanes/airplane4.png"
+import airplane5 from "./../../assets/airplanes/airplane5.png"
+
 export default function Airplane(){
   return (
     <>
@@ -22,8 +27,26 @@ export default function Airplane(){
 
         <div className="flex-2 w-full md:w-auto">
           <Marquee className="">
-            <img src={airplane1} className="" />
-            <img src={airplane1} className="" />
+            <img
+              src={airplane1}
+              className="mx-10"
+            />
+            <img
+              src={airplane2}
+              className="mx-10"
+            />
+            <img
+              src={airplane3}
+              className="mx-10"
+            />
+            <img
+              src={airplane4}
+              className="mx-10"
+            />
+            <img
+              src={airplane5}
+              className="mx-10"
+            />
           </Marquee>
         </div>
       </div>
