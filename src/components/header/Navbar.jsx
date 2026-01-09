@@ -84,14 +84,17 @@ export default function Navbar(){
           }`}
         >
           <div className={`px-6 ${scrolled ? "" : "bg-white/80 backdrop-blur-md"} py-4 shadow`}>
-            <ul className="space-y-4 text-lg font-medium text-slate-700">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Package</li>
-              <li>Facilities</li>
-              <li>Gallery</li>
-              <li className="pt-4">
-                <Button className="w-full">Contact Us</Button>
+            <ul className="space-y-4 flex flex-col text-lg font-medium text-slate-500">
+              <a href="" className="hover:text-slate-700 cursor-pointer">Home</a>
+              <a href="" className="hover:text-slate-700 cursor-pointer">About Us</a>
+              <a href="" className="hover:text-slate-700 cursor-pointer">Package</a>
+              <a href="" className="hover:text-slate-700 cursor-pointer">Facilities</a>
+              <a href="" className="hover:text-slate-700 cursor-pointer">Gallery</a>
+              <li className="">
+                <button className="px-8 py-4 w-full text-slate-700 bg-orange-300 text-sm rounded-lg 
+                  transition-transform transform hover:scale-105">
+                  Contact Us
+                </button>
               </li>
             </ul>
           </div>
