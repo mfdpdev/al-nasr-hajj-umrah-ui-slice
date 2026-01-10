@@ -1,5 +1,5 @@
 import { FaStar } from "react-icons/fa";
-import testimonial1 from "./../../assets/testimonials/testimonial1.png"
+import testimonial1 from "./../../assets/testimonials/testimonial1.webp"
 export default function TestimonialCard(){
   return (
     <>

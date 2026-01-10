@@ -1,10 +1,10 @@
 import { FaStar } from "react-icons/fa";
 import Marquee from "react-fast-marquee";
-import airplane1 from "./../../assets/airplanes/airplane1.png"
-import airplane2 from "./../../assets/airplanes/airplane2.png"
-import airplane3 from "./../../assets/airplanes/airplane3.png"
-import airplane4 from "./../../assets/airplanes/airplane4.png"
-import airplane5 from "./../../assets/airplanes/airplane5.png"
+import airplane1 from "./../../assets/airplanes/airplane1.webp"
+import airplane2 from "./../../assets/airplanes/airplane2.webp"
+import airplane3 from "./../../assets/airplanes/airplane3.webp"
+import airplane4 from "./../../assets/airplanes/airplane4.webp"
+import airplane5 from "./../../assets/airplanes/airplane5.webp"
 
 export default function Airplane(){
   return (

@@ -1,5 +1,5 @@
 import { FaInstagram } from "react-icons/fa";
-import logo2 from "./../../assets/logo2.png"
+import logo2 from "./../../assets/logo2.webp"
 export default function Footer(){
   return (
     <>

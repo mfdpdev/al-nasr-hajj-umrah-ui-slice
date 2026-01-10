@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import Button from "../button/Button"
-import logo from "./../../assets/Logo.png"
+import logo from "./../../assets/Logo.webp"
 export default function Navbar(){
   const [nav, setNav] = useState(false);
   const [scrolled, setScrolled] = useState(false);

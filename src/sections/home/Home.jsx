@@ -1,5 +1,5 @@
 import Button from "../../components/button/Button";
-import hero from "./../../assets/hero.png"
+import hero from "./../../assets/hero.webp"
 
 export default function Home(){
   return (

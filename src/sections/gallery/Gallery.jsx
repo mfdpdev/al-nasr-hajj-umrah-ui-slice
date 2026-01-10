@@ -1,8 +1,8 @@
-import image1 from "./../../assets/galleries/image1.png"
-import image2 from "./../../assets/galleries/image2.png"
-import image3 from "./../../assets/galleries/image3.png"
-import image4 from "./../../assets/galleries/image4.png"
-import image5 from "./../../assets/galleries/image5.png"
+import image1 from "./../../assets/galleries/image1.webp"
+import image2 from "./../../assets/galleries/image2.webp"
+import image3 from "./../../assets/galleries/image3.webp"
+import image4 from "./../../assets/galleries/image4.webp"
+import image5 from "./../../assets/galleries/image5.webp"
 
 export default function Gallery(){
             // h-[500px] md:h-[600px]   /* biar tinggi tetap konsisten */

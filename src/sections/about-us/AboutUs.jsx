@@ -1,6 +1,6 @@
 import Button from "../../components/button/Button"
-import aboutus from "./../../assets/about.png"
-import logo2 from "./../../assets/logo2.png"
+import aboutus from "./../../assets/about.webp"
+import logo2 from "./../../assets/logo2.webp"
 
 import { FaPlaneDeparture } from "react-icons/fa6";
 import { HiTicket } from "react-icons/hi2";

@@ -2,7 +2,7 @@ import { FaPlaneDeparture } from "react-icons/fa6";
 import { HiTicket } from "react-icons/hi2";
 import { PiBuildingsFill } from "react-icons/pi";
 import { GrVisa } from "react-icons/gr";
-import package1 from "./../../assets/packages/package1.png";
+import package1 from "./../../assets/packages/package1.webp";
 
 export default function Card() {
   return (
