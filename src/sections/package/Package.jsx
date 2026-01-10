@@ -1,4 +1,9 @@
 import Card from "../../components/card/Card";
+import package1 from "./../../assets/packages/package1.webp";
+import package2 from "./../../assets/packages/package2.webp";
+import package3 from "./../../assets/packages/package3.webp";
+import package4 from "./../../assets/packages/package4.webp";
+import package5 from "./../../assets/packages/package5.webp";
     // <section className="py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
 
 export default function Package() {
@@ -22,12 +27,11 @@ export default function Package() {
           gap-8 lg:gap-12 
           mt-12
         ">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card pic={package1} title="Bronze" type="Best Seller" description="Al Nasr Special Umrah 9 Days" price="$ 1,950/ " />
+          <Card pic={package2} title="Silver" type="Special Seller" description="Al Nasr Special Umrah 17 Days" price="$ 2,750/ " />
+          <Card pic={package3} title="Gold" type="Long Trip" description="Al Nasr Special Umrah 25 Days" price="$ 4,250/ " />
+          <Card pic={package4} title="Diamond" type="Best Seller" description="Al Nasr Special Hajj 30 Days" price="$ 20,000/ " />
+          <Card pic={package5} title="Platinum" type="Special Offering" description="Al Nasr Special Hajj 30 Days" price="$ 25,000/ " />
           {/* Tambah lagi juga tetap rapi */}
         </div>
       </div>

@@ -4,13 +4,15 @@ import { PiBuildingsFill } from "react-icons/pi";
 import { GrVisa } from "react-icons/gr";
 import package1 from "./../../assets/packages/package1.webp";
 
-export default function Card() {
+export default function Card({
+  pic, title, type, description, price
+}) {
   return (
     <div className="shadow bg-white rounded-2xl overflow-hidden w-full max-w-sm mx-auto flex flex-col h-full">
       {/* Gambar - tetap ratio yang bagus */}
       <div className="px-4 pt-4">
         <img
-          src={package1}
+          src={pic}
           alt="Package"
           className="w-full h-48 sm:h-56 object-cover rounded-xl"
         />
@@ -18,20 +20,20 @@ export default function Card() {
 
       {/* Bronze + Best Seller */}
       <div className="px-4 pt-4 flex justify-between items-center">
-        <h3 className="text-xl sm:text-2xl font-bold text-orange-400">Bronze</h3>
+        <h3 className="text-xl sm:text-2xl font-bold text-orange-400">{title}</h3>
         <div className="px-6 py-2 bg-teal-100 text-teal-600 rounded-l-full text-sm font-medium">
-          Best Seller
+          {type}
         </div>
       </div>
 
       {/* Detail paket */}
       <div className="px-4 pt-4 pb-8 flex flex-col flex-grow">
         <h2 className="text-lg sm:text-xl font-bold text-slate-800 leading-tight">
-          Al Nasr Special Umrah 9 Days
+          {description}
         </h2>
 
         <p className="mt-2 text-2xl font-bold text-slate-800">
-          $ 1.950/
+          {price}
           <span className="text-sm sm:text-base text-teal-600 font-bold"> person</span>
         </p>
 
