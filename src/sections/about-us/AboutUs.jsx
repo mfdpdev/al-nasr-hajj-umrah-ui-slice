@@ -6,11 +6,12 @@ import { FaPlaneDeparture } from "react-icons/fa6";
 import { HiTicket } from "react-icons/hi2";
 import { PiBuildingsFill } from "react-icons/pi";
 import { GrVisa } from "react-icons/gr";
+      // <section className="py-16 lg:py-24 px-6 lg:px-12">
 
 export default function AboutUs(){
   return (
     <>
-      <section className="py-16 lg:py-24 px-6 lg:px-12">
+      <section className="lg:py-16 px-6 lg:px-12">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center">
           
           {/* ================== GAMBAR KIRI ================== */}

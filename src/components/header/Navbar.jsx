@@ -56,7 +56,7 @@ export default function Navbar(){
           <div className="md:hidden">
             <button
               onClick={() => setNav(!nav)}
-              className="relative h-8 w-8 focus:outline-none"
+              className="relative cursor-pointer h-8 w-8 focus:outline-none"
             >
               <span
                 className={`hamburger-line origin-top-left transition-transform ${

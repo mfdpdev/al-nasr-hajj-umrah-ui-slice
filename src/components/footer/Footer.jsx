@@ -1,4 +1,8 @@
 import { FaInstagram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 import logo2 from "./../../assets/logo2.webp"
 export default function Footer(){
   return (
@@ -18,38 +22,38 @@ export default function Footer(){
           <div>
             <h3 className="font-bold mb-4">Quick Link</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:underline">About Us</a></li>
-              <li><a href="#" className="hover:underline">Flight Accommodation</a></li>
-              <li><a href="#" className="hover:underline">Facilities</a></li>
-              <li><a href="#" className="hover:underline">Gallery</a></li>
+              <li><a href="" className="hover:underline">About Us</a></li>
+              <li><a href="" className="hover:underline">Flight Accommodation</a></li>
+              <li><a href="" className="hover:underline">Facilities</a></li>
+              <li><a href="" className="hover:underline">Gallery</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold mb-4">Package Umrah</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:underline">Al Nasr Umrah Bronze</a></li>
-              <li><a href="#" className="hover:underline">Al Nasr Umrah Silver</a></li>
-              <li><a href="#" className="hover:underline">Al Nasr Umrah Gold</a></li>
-              <li><a href="#" className="hover:underline">Al Nasr Umrah Priority</a></li>
+              <li><a href="" className="hover:underline">Al Nasr Umrah Bronze</a></li>
+              <li><a href="" className="hover:underline">Al Nasr Umrah Silver</a></li>
+              <li><a href="" className="hover:underline">Al Nasr Umrah Gold</a></li>
+              <li><a href="" className="hover:underline">Al Nasr Umrah Priority</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold mb-4">Package Hajj</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:underline">Al Nasr Hajj Diamond</a></li>
-              <li><a href="#" className="hover:underline">Al Nasr Hajj Platinum</a></li>
-              <li><a href="#" className="hover:underline">Al Nasr Hajj Priority</a></li>
+              <li><a href="" className="hover:underline">Al Nasr Hajj Diamond</a></li>
+              <li><a href="" className="hover:underline">Al Nasr Hajj Platinum</a></li>
+              <li><a href="" className="hover:underline">Al Nasr Hajj Priority</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-bold mb-4">Office Place</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:underline">Indonesia</a></li>
-              <li><a href="#" className="hover:underline">Saudi Arabia</a></li>
-              <li><a href="#" className="hover:underline">Uni Emirates Arab</a></li>
+              <li><a href="" className="hover:underline">Indonesia</a></li>
+              <li><a href="" className="hover:underline">Saudi Arabia</a></li>
+              <li><a href="" className="hover:underline">Uni Emirates Arab</a></li>
             </ul>
           </div>
         </div>
@@ -60,15 +64,18 @@ export default function Footer(){
           <p>Copyright © 2006 - {new Date().getFullYear()} Al Nasr Travel | All Rights Reserved</p>
           
           <div className="flex space-x-3 mt-4 md:mt-0">
-            <div className="p-2 bg-white rounded-lg hover:bg-gray-100 transition">
+            <a href="" className="p-2 bg-white rounded-lg hover:bg-gray-100 transition">
               <FaInstagram className="text-teal-600 text-lg" />
-            </div>
-            <div className="p-2 bg-white rounded-lg hover:bg-gray-100 transition">
-              <FaInstagram className="text-teal-600 text-lg" />
-            </div>
-            <div className="p-2 bg-white rounded-lg hover:bg-gray-100 transition">
-              <FaInstagram className="text-teal-600 text-lg" />
-            </div>
+            </a>
+            <a href="" className="p-2 bg-white rounded-lg hover:bg-gray-100 transition">
+              <FaFacebook className="text-teal-600 text-lg" />
+            </a>
+            <a href="" className="p-2 bg-white rounded-lg hover:bg-gray-100 transition">
+              <FaYoutube className="text-teal-600 text-lg" />
+            </a>
+            <a href="" className="p-2 bg-white rounded-lg hover:bg-gray-100 transition">
+              <FaXTwitter className="text-teal-600 text-lg" />
+            </a>
           </div>
         </div>
       </div>

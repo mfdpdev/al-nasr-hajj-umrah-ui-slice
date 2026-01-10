@@ -1,8 +1,9 @@
 import Card from "../../components/card/Card";
+    // <section className="py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
 
 export default function Package() {
   return (
-    <section className="py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
+    <section className="py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto space-y-8">
         <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-800">
           Al Nasr Special Umrah and Hajj Packages
